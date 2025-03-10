@@ -1,5 +1,5 @@
 # 네트워크 보안
-1.	취약점 공격 및 증명:
+1.	취약점 공격 및 증명:  
 	•	Metasploit을 활용해 MS07-017 취약점을 공격하여 익스플로잇 페이지를 생성하고, 희생자 시스템에서 특정 프로세스(계산기 실행)를 통해 공격 성공 여부를 증명한다.  
 ![image](https://github.com/user-attachments/assets/03d2971f-ea5b-4912-b0d1-fb15e128831c)  
 ![image](https://github.com/user-attachments/assets/083d99a1-d9da-4a5e-b692-c93de929c408)  
@@ -15,7 +15,7 @@
 ![image](https://github.com/user-attachments/assets/a92be62f-afe5-43ef-95e8-170351c6342f)  
 ![image](https://github.com/user-attachments/assets/dd79968f-c4ba-4cbc-8bb8-0db6485e00d8)  
 
-2.	악성 페이지 유도:
+2.	악성 페이지 유도:  
   •	CentOS 서버에서 iframe을 활용해 희생자 시스템이 악성 페이지를 방문하도록 유도하며, 이로 인해 익스플로잇이 실행되도록 구현한다.  
 ![image](https://github.com/user-attachments/assets/649d7edf-0a46-49cf-9ff9-a86cc1d1ffbf)  
 ![image](https://github.com/user-attachments/assets/beb798be-343d-4bef-8365-b52fc96bf585)  
@@ -24,12 +24,12 @@
 ![image](https://github.com/user-attachments/assets/58a4d006-ae17-4df1-b403-3e38dfdc14c8)  
 
 
-3.	방화벽 설정:
+3.	방화벽 설정:  
 	•	pfSense 방화벽을 설정하여 특정 네트워크 간 접근을 차단하고, 이전 공격이 실패하도록 보안 정책을 적용한다.  
 ![image](https://github.com/user-attachments/assets/4e386479-acd9-48b3-90be-8d7deefc8fcc)  
 
 
-4.	표적 시스템 정보 수집:
+4.	표적 시스템 정보 수집:  
 	•	Meterpreter Reverse Shell을 통해 원격 명령어 실행 환경을 구축하고, 표적 시스템의 네트워크 정보, 운영체제 버전, 사용자 계정 목록 등을 수집한다.  
 ![image](https://github.com/user-attachments/assets/957cdaaf-3b99-4e44-af32-d2a93e0e0961)  
 ![image](https://github.com/user-attachments/assets/463e8f8b-dc29-4da3-993b-3738cba190e0)  
@@ -41,7 +41,7 @@
 ![image](https://github.com/user-attachments/assets/3dae2dd3-f0f5-41d0-8ba5-fa430ca5b0d5)  
 ![image](https://github.com/user-attachments/assets/93d57871-401e-4c61-9029-24baa72f1f6d)  
 
-5.	침투 및 측면 이동:
+5.	침투 및 측면 이동:  
 	•	msfvenom과 Metasploit을 사용하여 악성코드를 생성하고 실행하며, 측면 이동을 통해 네트워크 내 다른 시스템에 접근한다. SMB 취약점과 RDP를 활용한 이동이 포함된다.  
 ![image](https://github.com/user-attachments/assets/2c9b31f8-1be3-4342-acb4-abf98955784b)  
 ![image](https://github.com/user-attachments/assets/4bb1a9f1-b656-497a-b923-6178b2a329ca)  
@@ -67,7 +67,7 @@
 ![image](https://github.com/user-attachments/assets/ba374254-d07e-490c-b421-304155870daf)  
 ![image](https://github.com/user-attachments/assets/0bd53266-8c15-4b00-a097-f7515e2e6a84)  
 
-6.	제어 지속 및 데이터 유출:
+6.	제어 지속 및 데이터 유출:  
 	•	악성코드 자동 실행 설정(레지스트리 조작)을 통해 지속적인 제어를 유지하며, 원격 화면 및 파일 시스템에서 데이터를 수집하고 유출한다.  
 ![image](https://github.com/user-attachments/assets/32780cb4-6f0d-4033-8c42-abd406a0d94c)  
 ![image](https://github.com/user-attachments/assets/8ec4ed8c-b5c3-4f64-8558-c919e9869d0d)  
